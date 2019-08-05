@@ -1,3 +1,3 @@
-module github.com/svkpro/go-ddd
+module go-ddd
 
 go 1.12
