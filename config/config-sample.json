@@ -1,0 +1,15 @@
+{
+  "SERVICE_NAME": "Service Name",
+  "SERVICE_REGISTER_ADDRESS": "http://example.service",
+  "SERVICE_REGISTER_PORT": "9009",
+
+  "DB_USE_INMEM": "true",
+  "DB_TYPE": "postgres",
+  "DB_HOST": "localhost",
+  "DB_DATABASE": "postgres",
+  "DB_USERNAME": "postgres",
+  "DB_PASSWORD": "1",
+  "DB_PORT": "5434",
+  "DB_SSL_MODE": "disable",
+  "ENVIRONMENT": "dev"
+}
