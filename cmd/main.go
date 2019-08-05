@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
+	"go-ddd/domain/repository"
+	"go-ddd/infrastructure/persistence"
 )
 
-
 func main(){
-	fmt.Println("Hello from DDD!")
+	r := infrastructure.BookRepository{}
+	repository.InitBookRepository(&r)
+	book, _ := r.Get(1)
+
+	fmt.Println(book)
 }
