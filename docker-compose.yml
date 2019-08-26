@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  db:
+    image: "postgres:11"
+    container_name: "ddd.postgres"
+    ports:
+      - "54320:5432"
+    volumes:
+      - ddd-dbdata:/var/lib/postgresql/data
+volumes:
+  ddd-dbdata:
